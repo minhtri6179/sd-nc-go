@@ -1,1 +1,7 @@
-# The collection of LLD some application for Go language
+# Factory Method
+
+- Context
+- Strategy interface
+- Concrete Strategy 1
+- Concrete Strategy 1
+- Concrete Strategy 1

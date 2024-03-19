@@ -1,0 +1,1 @@
+# The collection of LLD some application for Go language
