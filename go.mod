@@ -1,3 +1,3 @@
-module minhtri6179/sd-nc-go
+module root
 
 go 1.21.4
