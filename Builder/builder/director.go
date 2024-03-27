@@ -19,9 +19,5 @@ func (d *Director) BuildHouse() House {
 	d.builder.SetWindows(4)
 	d.builder.SetDoors(2)
 	d.builder.SetFloors(1)
-	return House{
-		windows: d.builder.GetWindows(),
-		doors:   d.builder.GetDoors(),
-		floors:  d.builder.GetFloors(),
-	}
+	return *d.builder.GetHouse()
 }

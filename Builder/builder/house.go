@@ -30,3 +30,11 @@ func (h *House) GetDoors() int {
 func (h *House) GetFloors() int {
 	return h.floors
 }
+
+func (h *House) GetHouse() *House {
+	return &House{
+		windows: h.GetWindows(),
+		doors:   h.GetDoors(),
+		floors:  h.GetFloors(),
+	}
+}

@@ -8,6 +8,7 @@ type IBBuilder interface {
 	GetWindows() int
 	GetDoors() int
 	GetFloors() int
+	GetHouse() *House
 }
 
 func GetBuilder(builderType string) IBBuilder {
